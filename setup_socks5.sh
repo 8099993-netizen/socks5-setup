@@ -8,8 +8,8 @@ if [ $# -ne 2 ]; then
   exit 1
 fi
 
-PROXY_IP="38.34.25.219"
-PROXY_PASS="E93Yppf1"
+PROXY_IP="$1"
+PROXY_PASS="$2"
 PROXY_USER="sockuser"
 PROXY_PORT="1080"
 
